@@ -7,14 +7,14 @@ Aprender a procesar, graficar y analizar datos geotérmicos y estructurales util
 <span style="font-size:20px;color:#FFB3A7">**Contenido**</span> 
 
 
-1. [**Preparación Preliminar**]
+1. **Preparación Preliminar**
 
 2. **Tipos de Datos**  
-   - [Temperatura]
-   - [Gamma]
-   - [Datos estructurales (fracturas)]
+   - Temperatura
+   - Gamma Ray
+   - Datos estructurales (fracturas)
    
-3. [**Visualización Integrada de los datos**]
+3. **Visualización Integrada de los datos**
 
 
 <br><!-- Espacio adicional -->
