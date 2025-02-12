@@ -4,18 +4,17 @@ Aprender a procesar, graficar y analizar datos geotérmicos y estructurales util
 
 ---------------
 
-Índice
 <span style="font-size:20px;color:#FFB3A7">**Contenido**</span> 
 
 
-1. [**Preparación Preliminar**](1_Preparación_preliminar.ipynb)
+1. [**Preparación Preliminar**]
 
 2. **Tipos de Datos**  
-   - [Temperatura](2_Datos_temperaturas.ipynb)
-   - [Gamma](3_Datos_gamma.ipynb)  
-   - [Datos estructurales (fracturas)](4_Datos_estructurales.ipynb)
+   - [Temperatura]
+   - [Gamma]
+   - [Datos estructurales (fracturas)]
    
-3. [**Visualización Integrada de los datos**](5_Ejemplo.ipynb)
+3. [**Visualización Integrada de los datos**]
 
 
 <br><!-- Espacio adicional -->
