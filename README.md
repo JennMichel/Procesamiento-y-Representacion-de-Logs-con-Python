@@ -18,3 +18,7 @@ Aprender a procesar, graficar y analizar datos geotérmicos y estructurales util
 
 
 <br><!-- Espacio adicional -->
+
+
+Ingresar al Binder para comenzar!! 
+https://hub.2i2c.mybinder.org/user/jennmichel-proc-logs-con-python-6nyt47r9/lab/tree/Archivos_claseM/0_Introducci%C3%B3n.ipynb
