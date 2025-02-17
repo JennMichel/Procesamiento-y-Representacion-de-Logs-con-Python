@@ -1,0 +1,6 @@
+matplotlib
+mplstereonet
+numpy
+pandas
+scipy
+seaborn
