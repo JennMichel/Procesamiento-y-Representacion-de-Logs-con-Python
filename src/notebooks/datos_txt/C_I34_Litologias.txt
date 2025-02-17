@@ -1,7 +1,0 @@
-Codigo	Nombre_litologia
-1	Non-sampled section
-2	Sands
-3	Pumice
-4	Phonolitic lava flows
-5	Phonolitic mafic lava flows
-6	Trachybasalts
