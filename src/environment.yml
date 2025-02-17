@@ -1,0 +1,14 @@
+name: myenv
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - matplotlib
+  - mplstereonet
+  - numpy
+  - pandas
+  - scipy
+  - seaborn
+  - pip
+  - pip:
+    - jupyter
