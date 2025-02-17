@@ -7,7 +7,10 @@ WORKDIR /home/jovyan/work
 # Copia los archivos del repositorio al contenedor
 COPY . /home/jovyan/work
 
-# Instala las dependencias desde el archivo requirements.txt
+# Actualiza pip
+RUN pip install --upgrade pip
+
+# Instala las dependencias desde requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Expone el puerto por defecto de Jupyter
