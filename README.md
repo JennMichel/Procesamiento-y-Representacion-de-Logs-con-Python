@@ -20,4 +20,5 @@ Aprender a procesar, graficar y analizar datos geotérmicos y estructurales util
 <br><!-- Espacio adicional -->
 
 
-Ingresar al Binder para comenzar!!  
+Ingresar al Binder para comenzar!!  [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/JennMichel/Procesamiento-y-Representacion-de-Logs-con-Python/HEAD)
+
