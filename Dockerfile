@@ -1,17 +1,20 @@
-
-# Usa la imagen base de Jupyter con Python 3.9
+# Usa una imagen base de Jupyter con soporte para Python 3.9
 FROM jupyter/base-notebook:python-3.9
 
 # Establece el directorio de trabajo
-WORKDIR /home/jovyan
+WORKDIR /home/jovyan/work
 
-# Actualiza pip y instala las dependencias
+# Copia los archivos del repositorio al contenedor
+COPY . /home/jovyan/work
+
+# Actualiza pip
 RUN pip install --upgrade pip
-COPY requirements.txt /tmp/requirements.txt
-RUN pip install --no-cache-dir -r /tmp/requirements.txt
 
-# Expone el puerto 8888 (para Jupyter)
+# Instala las dependencias desde requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Expone el puerto por defecto de Jupyter
 EXPOSE 8888
 
-# Comando para iniciar Jupyter Notebook sin token
+# Inicia Jupyter Notebook
 CMD ["start-notebook.sh", "--NotebookApp.token=''"]
